@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cohorte4</title>
+    <script>
+      // EJERCICIO NUMERO 1
+      // pedir dos numeros con prompt() (y muestra las variables)
+      let numero1 = prompt("Ingrese el primer número:");
+      let numero2 = prompt("Ingrese el segundo número:");
+
+      alert(`suma: ${parseInt(numero1) + parseInt(numero2)}`);
+      alert(`resta: ${parseInt(numero1) - parseInt(numero2)}`);
+      alert(`multiplicación: ${parseInt(numero1) * parseInt(numero2)}`);
+      alert(`división: ${parseInt(numero1) / parseInt(numero2)}`);
+
+      // EJERCICIO NUMERO 2
+
+      // FUCTION TRADICIONALES -> DECLARACION O DECLARATIVAS
+      // function saludar(nombre) {
+      //   return `Hola ${nombre}, bienvenido/a a la cohorte 4`;
+      // }
+      // console.log(saludar("Juan"));
+      // alert(saludar("Juan"));
+
+      //FUNCIONES ANONIMAS
+
+      // const saludar = function (nombre) {
+      //   return `Hola ${nombre}, bienvenido/a a la cohorte 4`;
+      // };
+      // console.log(saludar("María"));
+      // alert(saludar("María"));
+
+      // FUNCIONES FLECHA O ARROW FUNCTIONS -> la ue mayor se ve en programacion
+      const saludar = (nombre) => `Hola ${nombre}, bienvenido/a a la cohorte 4`;
+      console.log(saludar("Pedro"));
+      alert(saludar("Pedro"));
+
+      // crea una funcion que diga esPar que reciba un numero y retorne si es par o no?
+
+      const esPar = (numero) => (numero % 2 === 0 ? "es par " : "es impar");
+      alert(esPar(7));
+
+      let fecha = new Date();
+      let dia = fecha.getDate();
+      let mes = fecha.getMonth() + 1;
+      let anio = fecha.getFullYear();
+
+      let resultadofecha = `${dia}/${mes}/${anio}`;
+      alert(resultadofecha);
+    </script>
+  </head>
+  <body>
+    <p>hola mundo</p>
+  </body>
+</html>
