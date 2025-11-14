@@ -2,6 +2,13 @@
 
 Portafolio web personal creado como parte de la tarea del Módulo 1 de JavaScript Cohorte 5.
 
+## 🔗 Demo en Vivo
+
+Una vez desplegado en GitHub Pages, el portafolio estará disponible en:
+**https://thejsarchitects.github.io/ModuloOneJavascriptCohorte5/Vale2029/**
+
+> **Nota:** El portafolio debe ser desplegado siguiendo las instrucciones de la sección "Publicación en GitHub Pages" más abajo.
+
 ## 📋 Descripción
 
 Este es mi portafolio web personal donde muestro mis habilidades, proyectos y forma de contacto como desarrolladora web en formación.
@@ -64,11 +71,11 @@ npx http-server Vale2029 -o
    - Ve a tu repositorio en GitHub
    - Click en "Settings" (Configuración)
    - Navega a "Pages" en el menú lateral
-   - En "Source", selecciona la rama "main" o "master"
-   - En la carpeta, selecciona "/root" o "/Vale2029" según tu estructura
+   - En "Source", selecciona la rama principal
+   - En la carpeta, selecciona "/root"
    - Click en "Save"
    - Espera unos minutos y tu sitio estará disponible en:
-     `https://[tu-usuario].github.io/[nombre-repositorio]/Vale2029/`
+     `https://thejsarchitects.github.io/ModuloOneJavascriptCohorte5/Vale2029/`
 
 ### Configuración alternativa (si quieres que sea la página principal):
 Si quieres que el portafolio sea accesible directamente en `https://[tu-usuario].github.io/[nombre-repositorio]/`:
