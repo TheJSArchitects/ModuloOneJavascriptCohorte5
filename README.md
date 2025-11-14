@@ -17,6 +17,15 @@ Este repositorio agrupa varios ejemplos y ejercicios prácticos organizados por 
   - 🌐 `index.html` — Página HTML que sirve de contenedor para ejemplos que usan el navegador.
 - 📁 `tutoria3/`
   - 📄 `index.js` — Ejemplo o ejercicio de la tutoría 3.
+- 📁 `Tutoria4/`
+  - 🌐 `index.html` — Ejemplo de blog personal con Flexbox y Grid.
+  - 🎨 `style.css` — Estilos CSS para el blog.
+- 📁 `Vale2029/`
+  - 🌟 **Portafolio Personal** — Proyecto completo de portafolio web personal.
+  - 🌐 `index.html` — Estructura completa del portafolio.
+  - 🎨 `style.css` — Diseño responsive y moderno.
+  - ⚡ `script.js` — Interactividad y animaciones.
+  - 📖 `README.md` — Documentación completa y guía de despliegue.
 
 > Nota: la estructura puede crecer según se añadan nuevas tutorías o clases.
 

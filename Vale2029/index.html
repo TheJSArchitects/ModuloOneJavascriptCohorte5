@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio personal de Valentina - Desarrolladora Web">
+    <title>Vale2029 - Portafolio Personal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header con nombre y navegación -->
+    <header class="header">
+        <div class="logo">
+            <h1>Vale<span class="highlight">2029</span></h1>
+        </div>
+        <nav class="nav">
+            <a href="#sobre-mi">Sobre mí</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">¡Hola! Soy Valentina</h2>
+            <p class="hero-subtitle">Desarrolladora Web Full Stack en formación</p>
+            <p class="hero-description">Apasionada por crear experiencias web increíbles y funcionales</p>
+            <a href="#proyectos" class="btn-primary">Ver mis proyectos</a>
+        </div>
+    </section>
+
+    <!-- Sección Sobre mí -->
+    <section id="sobre-mi" class="section sobre-mi">
+        <div class="container">
+            <h2 class="section-title">Sobre mí</h2>
+            <div class="sobre-mi-content">
+                <div class="sobre-mi-text">
+                    <p>Soy una estudiante de desarrollo web con gran pasión por la tecnología y el aprendizaje continuo. Me encanta enfrentar nuevos desafíos y buscar soluciones creativas a problemas complejos.</p>
+                    <p>Actualmente estoy profundizando mis conocimientos en HTML, CSS y JavaScript, construyendo una base sólida para convertirme en una desarrolladora web profesional.</p>
+                    <div class="skills">
+                        <h3>Habilidades técnicas:</h3>
+                        <div class="skills-list">
+                            <span class="skill-badge">HTML5</span>
+                            <span class="skill-badge">CSS3</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">Responsive Design</span>
+                            <span class="skill-badge">Git & GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="section proyectos">
+        <div class="container">
+            <h2 class="section-title">Mis Proyectos</h2>
+            <div class="proyectos-grid">
+                <!-- Proyecto 1 -->
+                <article class="proyecto-card">
+                    <div class="proyecto-image">
+                        <div class="placeholder-image">📱</div>
+                    </div>
+                    <div class="proyecto-content">
+                        <h3>Aplicación de Tareas</h3>
+                        <p>Una aplicación web interactiva para gestionar tareas diarias con funcionalidad de agregar, editar y eliminar tareas.</p>
+                        <div class="proyecto-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <button class="btn-secondary ver-mas" data-proyecto="1">Ver más</button>
+                        <div class="proyecto-detalles" id="detalles-1" style="display: none;">
+                            <p><strong>Características principales:</strong></p>
+                            <ul>
+                                <li>Interfaz intuitiva y fácil de usar</li>
+                                <li>Almacenamiento local con localStorage</li>
+                                <li>Filtrado de tareas completadas/pendientes</li>
+                                <li>Diseño responsive para móviles</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2 -->
+                <article class="proyecto-card">
+                    <div class="proyecto-image">
+                        <div class="placeholder-image">🎨</div>
+                    </div>
+                    <div class="proyecto-content">
+                        <h3>Landing Page Creativa</h3>
+                        <p>Diseño moderno y atractivo de una landing page para un negocio ficticio con animaciones y efectos visuales.</p>
+                        <div class="proyecto-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">Flexbox/Grid</span>
+                        </div>
+                        <button class="btn-secondary ver-mas" data-proyecto="2">Ver más</button>
+                        <div class="proyecto-detalles" id="detalles-2" style="display: none;">
+                            <p><strong>Características principales:</strong></p>
+                            <ul>
+                                <li>Diseño completamente responsive</li>
+                                <li>Animaciones CSS suaves</li>
+                                <li>Paleta de colores profesional</li>
+                                <li>Optimización para SEO</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3 -->
+                <article class="proyecto-card">
+                    <div class="proyecto-image">
+                        <div class="placeholder-image">🌤️</div>
+                    </div>
+                    <div class="proyecto-content">
+                        <h3>App del Clima</h3>
+                        <p>Aplicación que muestra el clima actual utilizando una API externa con búsqueda por ciudad.</p>
+                        <div class="proyecto-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                        <button class="btn-secondary ver-mas" data-proyecto="3">Ver más</button>
+                        <div class="proyecto-detalles" id="detalles-3" style="display: none;">
+                            <p><strong>Características principales:</strong></p>
+                            <ul>
+                                <li>Integración con API de clima</li>
+                                <li>Búsqueda dinámica de ciudades</li>
+                                <li>Visualización de datos meteorológicos</li>
+                                <li>Interfaz limpia y moderna</li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="section contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contacto-content">
+                <div class="contacto-info">
+                    <p>¿Tienes un proyecto en mente o quieres colaborar? ¡Me encantaría saber de ti!</p>
+                    <div class="contacto-methods">
+                        <div class="contacto-item">
+                            <span class="icon">📧</span>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:vale2029@example.com">vale2029@example.com</a>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <span class="icon">💼</span>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/vale2029" target="_blank">linkedin.com/in/vale2029</a>
+                            </div>
+                        </div>
+                        <div class="contacto-item">
+                            <span class="icon">🐙</span>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/vale2029" target="_blank">github.com/vale2029</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacto-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Tu mensaje..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Vale2029. Todos los derechos reservados.</p>
+            <p>Hecho con ❤️ y mucho ☕</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
