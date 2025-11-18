@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM class DevSeniorCohorte5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--- hero: muestra mi titulo y accion para cambiar mis estilos-->
+    <header class="hero">
+      <h1>😊 Manipulando el Dom</h1>
+      <p>manipuilando el dom con ejemplos dinamicos</p>
+      <button id="btnCambiarColor">Cambiar color del titulo</button>
+    </header>
+
+    <!-- selecion cambiar texto-->
+    <section class="card">
+      <h2>1. Modificacion de texto</h2>
+      <p id="textoModificable">Este texto al presionar click</p>
+      <button id="btnCambiarTexto">Cambiar Texto</button>
+    </section>
+
+    <!--cambiar cahjita de texto con style-->
+    <section class="card">
+      <h2>2.manejo de clases CSS</h2>
+      <div id="cuadro" class="cuadro"></div>
+      <button id="btnToogleClaseCss">Cambiar color caja</button>
+    </section>
+
+    <!--crear elementos lista-->
+    <section class="card">
+      <h2>3. crear y agregar elementos</h2>
+      <button id="btnAgregarElementos">AgregarElementos</button>
+      <ul id="listaDinamica"></ul>
+    </section>
+
+    <section class="card">
+      <h2>4. Eliminar elementos</h2>
+      <button id="btnEliminarElementos">Remover Elementos</button>
+    </section>
+
+    <section class="card">
+      <h2>5. Mini calculadora Manipulando nuestro DOM</h2>
+      <input type="number" id="num1" placeholder="numero1" />
+      <input type="number" id="num2" placeholder="numero2" />
+
+      <select id="operacion">
+        <option value="sumar">sumar</option>
+        <option value="restar">restar</option>
+        <option value="multiplicar">multiplicar</option>
+        <option value="dividir">dividir</option>
+      </select>
+
+      <button id="btnCalcular">Calcular</button>
+
+      <p id="resultadoCalc"></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
